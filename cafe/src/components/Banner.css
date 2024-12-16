@@ -1,0 +1,54 @@
+.banner {
+  background: url("https://img.freepik.com/free-vector/people-play-eat-together-with-dogs-pets-cafe-flat-vector-illustration_1284-82875.jpg")
+    no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  position: relative;
+}
+
+.banner-text {
+  text-align: center;
+  z-index: 1;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.banner-text p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.banner-text a {
+  background-color: rgb(186, 110, 10);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.banner-text a:hover {
+  background-color: rgb(186, 110, 10);
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
